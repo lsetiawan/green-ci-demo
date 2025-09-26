@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier
+_commit: ae0ef31
+_src_path: https://github.com/Cambridge-ICCS/green-ci.git
+build_docs_timeout: 15
+build_docs_triggers:
+- .github/workflows/build_docs.yml
+- docs/*.md
+- docs/*.html
+carbon_aware: true
